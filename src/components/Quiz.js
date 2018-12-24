@@ -20,26 +20,42 @@ function Quiz(props) {
       />
     );
   }
+  //<QuestionCount counter={props.questionId} total={props.questionTotal} />
 
+  /* 
+  <CSSTransitionGroup
+  className="container"
+  component="div"
+  transitionName="fade"
+  transitionEnterTimeout={800}
+  transitionLeaveTimeout={500}
+  transitionAppear
+  transitionAppearTimeout={500}>
+  </CSSTransitionGroup>
+  */
   return (
-    <CSSTransitionGroup
-      className="container"
-      component="div"
-      transitionName="fade"
-      transitionEnterTimeout={800}
-      transitionLeaveTimeout={500}
-      transitionAppear
-      transitionAppearTimeout={500}
-    >
+    
       
       <div key={props.questionId}>
-        <QuestionCount counter={props.questionId} total={props.questionTotal} />
+        
         <Question content={props.question} image={props.questionImage} />
-        <ul className="answerOptions">
-          {props.answerOptions.map(renderAnswerOptions)}
-        </ul>
+          <div class="row">
+            <div class="col m3 offset-m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src={props.questionImage}/>
+                </div>
+                <div class="card-content">
+                  <span class="card-title">{props.question}</span>
+                  <ul>
+                      {props.answerOptions.map(renderAnswerOptions)}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-    </CSSTransitionGroup>
+    
   );
 }
 

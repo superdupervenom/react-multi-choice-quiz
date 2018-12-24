@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function AnswerOption(props) {
   return (
-    <li className="answerOption">
+    <li className="answerOption card-panel teal lighten-2">
       <input
         type="radio"
         className="radioCustomButton"
@@ -15,7 +15,9 @@ function AnswerOption(props) {
         onChange={props.onAnswerSelected}
       />
       <label className="radioCustomLabel" htmlFor={props.answerType}>
-        {props.answerContent}
+        <div className="holycow">
+          {props.answerContent}
+        </div>
       </label>
     </li>
   );

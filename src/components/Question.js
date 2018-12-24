@@ -3,12 +3,7 @@ import PropTypes from 'prop-types';
 
 function Question(props) {
   console.log(props)
-  return ( 
-    <div>
-      <h2 className="question"> {props.content}  </h2> <img src={props.image}/>
-    </div>
-  );
-  
+  return (<div></div>);
 }
 
 Question.propTypes = {

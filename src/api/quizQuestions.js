@@ -1,11 +1,11 @@
 var quizQuestions = [
   {
-      question: "What franchise would you rather play a game from?",
-      questionImage: "https://vignette.wikia.nocookie.net/harrypotter/images/2/27/Harry-potter3.jpg/revision/latest?cb=20100114123803",
+      question: "L stands for LOVING. You are always on the lookout for others needs and have a great desire to make sure others feel loved. I have seen take in those who do not quite fit in and spend extra energy and effort to make sure they feel wanted and needed.",
+      questionImage: "https://i.ibb.co/5BQfW5d/L-stands-for-VING-min.png",
       answers: [
           {
               type: "Microsoft",
-              content: "Show me why I need to have a fast loading page?"
+              content: "Next"
           }
       ]
   },
