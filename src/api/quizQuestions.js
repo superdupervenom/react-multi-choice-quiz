@@ -1,6 +1,6 @@
 var quizQuestions = [
   {
-      question: "L stands for LOVING. You are always on the lookout for others needs and have a great desire to make sure others feel loved. I have seen take in those who do not quite fit in and spend extra energy and effort to make sure they feel wanted and needed.",
+      question: "L stands for LOVING. You are always on the lookout for others needs and have a great desire to make sure others feel loved. I have seen you take in those who do not quite fit in and spend extra energy and effort to make sure they feel wanted and needed.",
       questionImage: "https://i.ibb.co/5BQfW5d/L-stands-for-VING-min.png",
       answers: [
           {
@@ -10,37 +10,22 @@ var quizQuestions = [
       ]
   },
   {
-      question: "Which console would you prefer to play with friends?",
-      questionImage: "https://console.online.net/bundles/onlineconsole/images/logoblack.svg?16ed378b",
+      question: "U stands for UNDERSTANDING. You are always seeking to understand what others are feeling and thinking. I have seen you take time to listen to others and learn there point of view without passing judgment.",
+      questionImage: "https://i.ibb.co/NsvNvn7/L-stands-for-VING-1-min.png",
       answers: [
           {
               type: "Microsoft",
-              content: "X-Box"
+              content: "Next"
           },
-          {
-              type: "Nintendo",
-              content: "Nintendo 64"
-          },
-          {
-              type: "Sony",
-              content: "Playstation 1"
-          }
       ]
   },
   {
-      question: "Which of these racing franchises would you prefer to play a game from?",
+      question: "D stands for DARING. You are always up for trying new things, stepping outside your comfort zone, and heading out on adventures. I have seen you face your fears, overcome obstacles, and meet great frightening opposition with daring triumph!",
+      questionImage: "https://i.ibb.co/LJLs7RM/L-stands-for-VING-2-min.png",
       answers: [
           {
               type: "Microsoft",
-              content: "Forza"
-          },
-          {
-              type: "Nintendo",
-              content: "Mario Kart"
-          },
-          {
-              type: "Sony",
-              content: "Gran Turismo"
+              content: "Next"
           }
       ]
   },
