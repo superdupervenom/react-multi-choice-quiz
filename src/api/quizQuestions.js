@@ -30,36 +30,22 @@ var quizQuestions = [
       ]
   },
   {
-      question: "Which of these games do you think is best?",
+      question: "I stands for INQUISITIVE. You are always learning new things, asking questions, and seeking new knowledge. I have been amazed by your intellect, reasoning powers, and ability to process problems and think through solutions.",
+      questionImage: "https://i.ibb.co/2dVq7Ms/L-stands-for-VING-3-min.png",
       answers: [
           {
               type: "Microsoft",
-              content: "BioShock"
-          },
-          {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
-          },
-          {
-              type: "Sony",
-              content: "Final Fantasy VII"
+              content: "Next"
           }
       ]
   },
   {
-      question: "What console would you prefer to own?",
+      question: "M stands for MOTHER. You are always a great champion of lover of children. I have seen your incredible ability to nurture and love children as if they were your own. It is a great gift you possess, and I have witnessed many children who love and admire you.",
+      questionImage: "https://i.ibb.co/zSZj23X/L-stands-for-VING-4-min.png",
       answers: [
           {
               type: "Microsoft",
-              content: "X-Box One"
-          },
-          {
-              type: "Nintendo",
-              content: "Wii U"
-          },
-          {
-              type: "Sony",
-              content: "Playstation 4"
+              content: "Next"
           }
       ]
   }
