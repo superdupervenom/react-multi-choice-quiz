@@ -40,7 +40,7 @@ var quizQuestions = [
       ]
   },
   {
-      question: "M stands for MOTHER. You are always a great champion of lover of children. I have seen your incredible ability to nurture and love children as if they were your own. It is a great gift you possess, and I have witnessed many children who love and admire you.",
+      question: "M stands for MOTHER. You are always a great champion of children. I have seen your incredible ability to nurture and love children as if they were your own. It is a great gift you possess, and I have witnessed many children who love and admire you.",
       questionImage: "https://i.ibb.co/zSZj23X/L-stands-for-VING-4-min.png",
       answers: [
           {
