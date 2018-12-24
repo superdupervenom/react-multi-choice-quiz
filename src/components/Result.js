@@ -15,7 +15,9 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZuXbaC4jKerw2Q9hyunKorE8b8I3rNbt_XtV8ejJ48yoxIw/viewform?embedded=true" width="640" height="1015" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <center>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/A-lebYNcgBk?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
       </div>
     </CSSTransitionGroup>
   );

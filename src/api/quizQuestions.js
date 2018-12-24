@@ -1,23 +1,17 @@
 var quizQuestions = [
   {
       question: "What franchise would you rather play a game from?",
+      questionImage: "https://vignette.wikia.nocookie.net/harrypotter/images/2/27/Harry-potter3.jpg/revision/latest?cb=20100114123803",
       answers: [
           {
               type: "Microsoft",
-              content: "Halo"
-          },
-          {
-              type: "Nintendo",
-              content: "Pokemon"
-          },
-          {
-              type: "Sony",
-              content: "Uncharted"
+              content: "Show me why I need to have a fast loading page?"
           }
       ]
   },
   {
       question: "Which console would you prefer to play with friends?",
+      questionImage: "https://console.online.net/bundles/onlineconsole/images/logoblack.svg?16ed378b",
       answers: [
           {
               type: "Microsoft",

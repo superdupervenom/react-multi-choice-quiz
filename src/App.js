@@ -13,6 +13,7 @@ class App extends Component {
       counter: 0,
       questionId: 1,
       question: '',
+      questionImage: '',
       answerOptions: [],
       answer: '',
       answersCount: {
@@ -32,7 +33,8 @@ class App extends Component {
     );
     this.setState({
       question: quizQuestions[0].question,
-      answerOptions: shuffledAnswerOptions[0]
+      answerOptions: shuffledAnswerOptions[0],
+      questionImage: quizQuestions[0].questionImage
     });
   }
 
@@ -84,6 +86,7 @@ class App extends Component {
       counter: counter,
       questionId: questionId,
       question: quizQuestions[counter].question,
+      questionImage: quizQuestions[counter].questionImage,
       answerOptions: quizQuestions[counter].answers,
       answer: ''
     });
@@ -113,6 +116,7 @@ class App extends Component {
         answerOptions={this.state.answerOptions}
         questionId={this.state.questionId}
         question={this.state.question}
+        questionImage={this.state.questionImage}
         questionTotal={quizQuestions.length}
         onAnswerSelected={this.handleAnswerSelected}
       />
